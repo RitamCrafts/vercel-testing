@@ -120,5 +120,5 @@ function updateDisplay(locData, wethData) {
   currentTempE.textContent = wethData.temp + "°";
   unitE.textContent = "C";
   currentTempE.style.marginLeft = "1rem";
-  weatherIconE.src = `../public/assets/${wethData.weatherIcon}.png`;
+  weatherIconE.src = `/assets/${wethData.weatherIcon}.png`;
 }
