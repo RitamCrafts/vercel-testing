@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rush Weather</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <div class="main-container-div">
+        <div class="main-card-container">
+            <div class="search-area">
+                <input type="text" placeholder="Enter city name" id="search-box">
+                <button id="search-button"><image src="public/assets/search-icon.png" class="search-icon"></button>
+            </div>
+            <div class="full-divider"></div>
+            <div id="city-name-display">City</div>
+            <div id="country-name-display">Country</div>
+            <div class="divider"></div>
+            <div id="location-display">Lat: -- | Lon: --</div>
+            <div class="full-divider"></div>
+            <div class="weather-icon-container"><img src="public/assets/weather.png" id="weather-icon"></div>
+            <div id="current-status">Weather</div>
+            <div class="divider"></div>
+            <div class="temp-container">
+                <div id="current-temp">--</div>
+                <div id="unit"></div>
+            </div>
+    </div>
+    
+</body>
+<script type="module" src="./src/main.js"></script>
+</html>
